@@ -1,0 +1,28 @@
+2023-10-29 17:04:28,184 - MAIN - INFO - Application is running on 192.168.1.7:5000
+2023-10-29 17:08:44,814 - MAIN - INFO - Application is running on 192.168.1.7:5000
+2023-10-29 17:09:18,252 - MAIN - INFO - Home Page START
+2023-10-29 17:09:18,254 - MAIN - INFO - Home Page END
+2023-10-29 17:09:27,823 - MAIN - INFO - Home Page START
+2023-10-29 17:09:27,826 - WrdDetail - INFO - call_methods START
+2023-10-29 17:09:27,828 - WrdDetail - INFO - get_dictionary.com START
+2023-10-29 17:09:28,812 - WrdDetail - INFO - get_dictionary.com END
+2023-10-29 17:09:28,814 - WrdDetail - INFO - thesaurus START
+2023-10-29 17:09:29,700 - WrdDetail - ERROR - Error got for synonyms 
+'NoneType' object has no attribute 'strings'
+Traceback (most recent call last):
+  File "D:\Projects_on_github\english_words_dictionary_senetnse\word_details.py", line 93, in thesaurus
+    for string in tag.strings:
+                  ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strings'
+2023-10-29 17:09:30,840 - WrdDetail - ERROR - Error got for antonyms 
+'NoneType' object has no attribute 'strings'
+Traceback (most recent call last):
+  File "D:\Projects_on_github\english_words_dictionary_senetnse\word_details.py", line 93, in thesaurus
+    for string in tag.strings:
+                  ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strings'
+2023-10-29 17:09:30,841 - WrdDetail - INFO - thesaurus END
+2023-10-29 17:09:30,843 - WrdDetail - INFO - sentence_dict START
+2023-10-29 17:09:31,934 - WrdDetail - INFO - sentence_dict END
+2023-10-29 17:09:31,937 - WrdDetail - INFO - call_methods END
+2023-10-29 17:09:31,938 - MAIN - INFO - Home Page END
